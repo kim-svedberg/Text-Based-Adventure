@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class GlobalManager : MonoBehaviour
 {
+    string eventID;
+    string eventName;
+    int rpPoints; //Relationship points
+    List<string> inventory; 
+    
+
     // Start is called before the first frame update
     void Start()
     {
